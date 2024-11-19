@@ -1,0 +1,24 @@
+#popup {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    position: fiexd;
+    right: 10px;
+    z-index: 10;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    /* sticky : 지정한 구역이 스크롤 밖으로 나갔을때 위치 고정 */
+    position: sticky;
+    top: 50px;
+    z-index: 3;
+}
+
+#header>ul {
+    display: flex;
+}
