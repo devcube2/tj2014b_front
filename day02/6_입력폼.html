@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        <Page Title>
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1>입력폼, 입력관련 마크업들</h1>
+    <form> <!-- form: 여러 입력 마크업들을 묶어주는 역활 -->
+        텍스트 : <input type="text" placeholder="류재석" /><br />
+        비밀번호 : <input type="password" placeholder="test" maxlength="4" autofocus /><br />
+        이메일 : <input type="email" /><br />
+        첨부파일 : <input type="file" /><br />
+        첨부파일(여러개) : <input type="file" multiple /><br />
+
+        색상 : <input type="color" /><br />
+        날짜 : <input type="date" /><br />
+        날짜/시간 : <input type="datetime-local" /><br />
+        시간 : <input type="time" /><br />
+        월 : <input type="month" /><br />
+        주 : <input type="week" /><br />
+        범위스크롤 : <input type="range" /><br />
+        숫자 : <input type="number" /><br />
+
+        <textarea rows="5" cols="10"></textarea><br />
+
+        <select>
+            <option>네이버</option>
+            <option>카카오</option>
+            <option>야후</option>
+        </select>
+
+        <input type="submit" /><br /> <!-- 폼 전송, -->
+    </form>
+
+    <form>
+        <fieldset>
+            <legend> 사용자 아이디 </legend>
+            <label>아이디 : </label><input type="text" />
+        </fieldset>
+        <label> 비밀번호 : </label><input type="password" />
+    </form>
+</body>
+
+</html>

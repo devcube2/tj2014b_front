@@ -1,0 +1,20 @@
+.numbering {
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.orange_color {
+    color: orange;
+}
+
+ul {
+    list-style-type:none;
+    background-color: teal;
+    padding: 15px 15px;
+    width: 465px;
+}
+
+li {
+    color: white;
+}

@@ -1,0 +1,97 @@
+/* 구역 확인 코드 */
+* {
+    border: solid 3px red;    
+}
+
+html {
+    border: solid 5px green;
+}
+
+body {
+    border: solid 4px blue;
+}
+
+.box1 {
+    border: solid 3px pink;
+}
+
+.box2 {
+    border-top: 1px solid orange;
+    /* 상단 테두리 */
+    border-right: 2px dotted skyblue;
+    /* 오른쪽 테두리 */
+    border-bottom: 3px dashed black;
+    /* 하단 테두리 */
+    border-left: 4px double green;
+    /* 왼쪽 테두리 */
+
+    border-radius: 5px;
+    /* 둥근 모서리 : 둥근정도px */
+    /* 박스 그림자 : x축 y축 흐림정도 색상 */
+    box-shadow: 5px 5px 5px orange;
+    /* 구역내 모든 컨텐츠 정렬 */
+    text-align: center; /* 박스 자체가 가운데 정렬x, 박스내 내용물이 가운데 정렬o */
+    /* 구역 크기/사이즈 */
+    width: 100%;
+    /* 모든 구역의 기본값은 100% (상위 마크업 사이즈 기준) */
+    width: 300px;
+    /* 고정 가로 사이즈 300px */
+    height: 300px;
+    /* 고정 세로 사이즈 300px */
+}
+
+.box3 > img {
+    width: 200px;
+}
+
+.box3 {
+    text-align: center;
+}
+
+/* 입력상자 */
+input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px; /* 둥근 모서리 */
+}
+
+form {
+    text-align: center;
+}
+
+/* 여백(기준 : 테두리) : 1. 안쪽여백 2. 바깥여백 */
+.box4 {
+    padding : 50px; /* 안쪽여백(테두리 - 컨텐츠 사이) */
+    margin : 60px; /* 바깥여백(테두리 - 다른구역 사이 여백) */
+}
+
+.box5 {
+    width: 100px;
+    padding-top : 20px; /* 위 안쪽 여백 */
+    padding-right: 30px; /* 오른쪽 안쪽 여백 */
+    padding-bottom: 40px; /* 아래쪽 안쪽 여백 */
+    padding-left: 50px; /* 왼쪽 안백 여백 */
+
+    margin-top: 50px; /* 위 바깥 여백 */
+    margin-right: 40px; /* 오른쪽 바깥 여백 */
+    margin-bottom: 30px; /* 아래쪽 바깥 여백 */
+    margin-left: 20px; /* 왼쪽 바깥 여백 */
+}
+
+.box6 {
+    padding: 20px 30px 40px 50px; /* 위 오른쪽 아래 왼쪽 순 */
+    padding: 20px 30px; /* 위/아래 20px, 왼쪽/오른쪽 30px */
+    padding: 20px; /* 위/오른쪽/아래/왼쪽 20px */
+
+    margin: 20px 30px 40px 50px;
+    margin: 20px 20px;
+    margin: 20px;
+}
+
+.box7 {
+    width: 200px; height: 200px;
+    margin : 10px auto; /* 구역 가로 가운데 정렬 , 위/아래 10px , 왼/오 auto */
+    text-align : center; /* 구역내 컨텐츠 가운데 정렬 */
+    background-color : red; /* 구역 배경색 */
+}

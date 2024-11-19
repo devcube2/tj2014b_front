@@ -1,0 +1,29 @@
+* {
+    border: 3px solid red;
+}
+
+.s1 {
+    display: inline;
+    /* 구역 사이즈(불가능) : inline 은 크기를 적용할 수 없다. */
+    width: 100px; height: 100px;
+    margin: 20px 30px;
+    padding: 20px 30px;
+}
+
+.s2 {
+    display: block;
+    width: 200px; height: 200px;
+    margin: 20px 30px;
+    padding: 20px 30px;
+}
+
+.s3 {
+    display: inline-block;
+    width: 100px; height: 100px;
+    margin: 20px 30px;
+    padding: 20px 30px;
+}
+
+.s4 {
+    display: none;
+}

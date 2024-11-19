@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    /* border: 1px solid gray; */
+    border: 1px solid #eceeee;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.content {
+    width: 500px;
+}
+
+.orange_color {
+    font-weight: bold;
+    color: orange;
+}
