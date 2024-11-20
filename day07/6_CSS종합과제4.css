@@ -1,0 +1,126 @@
+* {
+    /* border: 1px solid blue; */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* 공통 */
+.icon {
+    width: 15px;
+}
+
+.side-gap {
+    padding: 0px 20px;
+}
+
+.small_char {
+    font-size: 11px;
+    color: #999999;
+}
+
+.small_char2 {
+    font-size: 12px;
+}
+
+.highlight {
+    font-weight: bold;    
+}
+
+.top-gap {
+    padding-top: 5px;
+}
+
+.top-gap2 {
+    padding-top: 10px;
+}
+
+.topdown-gap {
+    padding: 5px 0px;
+}
+
+/* 헤더 */
+/* --- 탑 --- */
+#header-top {
+    padding: 15px 25px;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+#header-top>ul {
+    display: flex;
+    justify-content: end;
+}
+
+#header-top .side-gap {
+    padding: 0px 20px;
+}
+
+/* --- 미드 --- */
+#header-mid {
+    padding: 20px 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-mid>ul {
+    display: flex;
+}
+
+#header-mid>ul>.menu-item {
+    padding: 10px;
+}
+
+#header-mid>ul>li>img {
+    padding-right: 20px;
+}
+
+#header-bottom img {
+    width: 100%;
+}
+
+/* 본문 */
+#mid {    
+    text-align: center;
+    /* width: 1200px; */
+}
+
+#mid>content {    
+}
+
+#shop-items>ul>li {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+ #shop-items img {
+    width: 150px;
+ }
+
+/* 푸터 */
+#footer-top {
+    height: 270px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-top>ul {
+    margin-top: 40px;
+}
+
+#footer-bottom {
+    width: 90%;
+    margin: 30px auto;
+}
+
+#footer-bottom>p {
+    text-align: center;
+}

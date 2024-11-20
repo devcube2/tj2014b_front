@@ -1,0 +1,64 @@
+li {
+    list-style-type: none;
+}
+
+/* 예제 1 =============================================================== */
+#header {
+    background-color: beige;
+}
+
+#header>ul {
+    display: flex;
+    justify-content: center;
+}
+
+#header>ul>li {
+    padding: 20px;
+    position: relative;
+}
+
+#header .submenu {
+    display: none;
+    /* 절대적인 위치 = 조상 요소 기준 */
+    position: absolute;
+    background-color: beige;
+    top: 50px;
+    left: 0px;
+    padding: 10px;
+}
+
+/* 지정된 li 마크업을 hover 했을때 서브메뉴 열기 */
+/* 선택자:hover 변경할 선택자 { } */
+#header>ul>.menu:hover .submenu {
+    /* 기존의 display:none 값을 hover 했을때 block 으로 css 변경 */
+    display: block;
+}
+
+/* 예제 2 =============================================================== */
+#header2 {
+    background-color: skyblue;
+    position: relative;
+}
+
+#header2>ul {
+    display: flex;
+    justify-content: center;
+}
+
+#header2>ul>li {
+    padding: 10px;
+}
+
+#header2 .submenu2 {
+    display: none;
+    position: absolute;
+    top: 40px;
+    display: none;
+    background-color: skyblue;
+    width: 100%;
+}
+
+/* 지정된 ul 마크업을 hover 했을때 서브메뉴 전체 열기 */
+#header2 > ul:hover .submenu2 {
+    display: block;
+}
