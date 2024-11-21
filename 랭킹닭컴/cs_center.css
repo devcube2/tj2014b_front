@@ -58,7 +58,7 @@
 .hjw-ico-cs-center {
     width: 50px;
     height: 40px;
-    background-image: url("img/ico_cscenter.png");
+    background-image: url("img/icon/ico_cscenter.png");
 }
 
 #hjw-ico-cs-center2 {
@@ -80,6 +80,6 @@
 #test2 {
     width: 50px;
     height: 40px;
-    background-image: url("img/ico_cscenter.png");
+    background-image: url("img/icon/ico_cscenter.png");
     background-position: -68px 0px;
 }
