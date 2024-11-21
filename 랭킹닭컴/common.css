@@ -1,0 +1,44 @@
+/* 공통 */
+* {
+    border: 1px solid blue;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hjw-top-gap {
+    margin-top: 15px;
+}
+
+.hjw-bottom-gap {
+    margin-bottom: 15px;
+}
+
+.hjw-side-pad {
+    padding: 0px 20px;
+}
+
+.hjw-bottom-pad {
+    padding-bottom: 5px;
+}
+
+.hjw-highlight {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hjw-small {
+    font-size: 12px;
+    color: #777777;
+}
