@@ -1,0 +1,56 @@
+/* 공통 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* 헤더 */
+/* 본문 */
+#hjw-content-left>div>h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.hjw-cs-center-left-box {
+    width: 220px;
+    border: 1px solid #efefef;
+    padding: 10px;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.hjw-ce-center-left-box-item {
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+.hjw-ce-center-left-box-item2 {
+    padding: 0px 20px;    
+}
+
+.hjw-left-box-item-border {
+    border-bottom: 1px solid #eee;
+}
+
+.hjw-highlight {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hjw-small {
+    font-size: 12px;
+    color: #777777;
+}
+
+
+
+/* 푸터 */
