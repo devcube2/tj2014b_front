@@ -2,18 +2,41 @@
 
 /* 헤더 */
 
-/* 본문 */
+/* 
+    ----- 본문 크기 및 배치 조정(큰틀 조정) -----
+*/
+
 #hjw-content-wrap {
+    /* 본문 전체 중앙 배치 */
     display: flex;
     justify-content: center;
 }
 
 #hjw-content {
+    /* 본문 왼쪽-오른쪽 부분 space-between 배치 */
     display: flex;
     justify-content: space-between;
 }
 
-/* 본문 - 왼쪽*/
+#hjw-content-left {
+    /* 본문 왼쪽 크기 및 조정 */
+    margin: 50px;
+    width: 250px;
+}
+
+#hjw-content-right {
+    /* 본문 오른쪽 크기 및 조정 */
+    width: 1100px;
+    margin: 50px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+/* 
+    ----- 본문 꾸밈 요소 작성 -----
+*/
+
+/* 본문 - 왼쪽 */
 #hjw-content-left {
     margin: 50px;
     width: 250px;
@@ -45,41 +68,31 @@
 }
 
 /* 본문 - 오른쪽 */
-#hjw-content-right {
-    width: 1100px;
-    margin: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* 푸터 */
-
-/* 아이콘 편집 */
 .hjw-ico-cs-center {
+    /* 상단 아이콘 편집 */
     width: 50px;
     height: 40px;
     background-image: url("img/icon/ico_cscenter.png");
 }
 
 #hjw-ico-cs-center2 {
+    /* 상단 아이콘 편집 */
     background-position: -68px 0px;
 }
 
 #hjw-ico-cs-center3 {
+    /* 상단 아이콘 편집 */
     background-position: -137px 0px;
 }
 
 #hjw-ico-cs-center4 {
+    /* 상단 아이콘 편집 */
     background-position: -204px 0px;
 }
 
 #hjw-ico-cs-center5 {
+    /* 상단 아이콘 편집 */
     background-position: -268px 0px;
 }
 
-#test2 {
-    width: 50px;
-    height: 40px;
-    background-image: url("img/icon/ico_cscenter.png");
-    background-position: -68px 0px;
-}
+/* 푸터 */
