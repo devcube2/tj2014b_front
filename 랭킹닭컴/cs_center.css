@@ -12,7 +12,11 @@
     justify-content: center;
 }
 
-#hjw-content {
+#hjw-content-top-subject {
+    /* margin: 0px 50px; */
+}
+
+#hjw-content-flex {
     /* 본문 왼쪽-오른쪽 부분 space-between 배치 */
     display: flex;
     justify-content: space-between;
@@ -20,16 +24,16 @@
 
 #hjw-content-left {
     /* 본문 왼쪽 크기 및 조정 */
-    margin: 50px;
-    width: 250px;
+    /* margin: 50px; */
+    width: 220px;
 }
 
 #hjw-content-right {
     /* 본문 오른쪽 크기 및 조정 */
-    width: 1100px;
-    margin: 50px;
-    /* display: flex;
-    justify-content: space-around; */
+    width: 820px;
+    /* margin: 50px; */
+    /* display: flex; */
+    justify-content: space-around;
 }
 
 /* 
@@ -38,7 +42,7 @@
 
 /* 본문 - 왼쪽 */
 #hjw-content-left {
-    margin: 50px;
+    /* margin: 50px; */
     width: 250px;
 }
 
@@ -54,44 +58,119 @@
 .hjw-cs-center-left-box {
     width: 220px;
     border: 1px solid #efefef;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 15px;
 }
 
 .hjw-ce-center-left-box-item {
     padding: 10px;
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
 }
 
 .hjw-left-box-item-border {
     border-bottom: 1px solid #eee;
 }
 
-/* 본문 - 오른쪽 */
+/* 본문 - 오른쪽(top) */
+#hjw-content-right-top-wrap {    
+    background: #f8f8f8;
+}
+
+#hjw-content-right-top-wrap {
+    text-align: center;
+}
+
+#hjw-content-right-top-wrap>#hjw-input {
+    width: 662px;
+    height: 44px;
+    text-align: left;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+}
+
+/* 본문 - 오른쪽(mid) */
+#hjw-content-right-mid-subject {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#hjw-content-right-mid-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hjw-content-right-mid-icons-desc {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+/* 본문 - 오른쪽(mid2) */
+.hjw-question-mark {
+    font-size: 14px;
+    color: #fb5001;
+    font-weight: bold;
+}
+
+/* #hjw-faq-notice {
+    background-color: #f8f8f8;
+} */
+
+/* 자주묻는 FAQ 게시물 목록 */
+#hjw-content-right-mid2>div>ul>li, #hjw-content-right-mid3>div>ul>li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+/* 본문 - 오른쪽(mid3) */
+#hjw-content-right-mid3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hjw-content-right-mid3-notice {
+    width: 425px;
+}
+
+#hjw-content-right-mid3-counsel {
+    width: 400px;
+}
+
+/* 
+    =============== 아이콘 편집 관련 ===============
+*/
+#hjw-ico-search {
+    /* 상단 검색 아이콘 */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("img/icon/ico_btns.png");
+}
+
 .hjw-ico-cs-center {
-    /* 상단 아이콘 편집 */
+    /* 상단 메뉴 아이콘1 */
     width: 50px;
     height: 40px;
     background-image: url("img/icon/ico_cscenter.png");
 }
 
 #hjw-ico-cs-center2 {
-    /* 상단 아이콘 편집 */
+    /* 상단 메뉴 아이콘2 */
     background-position: -68px 0px;
 }
 
 #hjw-ico-cs-center3 {
-    /* 상단 아이콘 편집 */
+    /* 상단 메뉴 아이콘3 */
     background-position: -137px 0px;
 }
 
 #hjw-ico-cs-center4 {
-    /* 상단 아이콘 편집 */
+    /* 상단 메뉴 아이콘4 */
     background-position: -204px 0px;
 }
 
 #hjw-ico-cs-center5 {
-    /* 상단 아이콘 편집 */
+    /* 상단 메뉴 아이콘5 */
     background-position: -268px 0px;
 }
 

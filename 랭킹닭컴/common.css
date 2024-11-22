@@ -1,11 +1,12 @@
 /* 공통 */
 * {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 a {
@@ -21,8 +22,28 @@ li {
     margin-top: 15px;
 }
 
+.hjw-top-big-gap {
+    margin-top: 70px;
+}
+
 .hjw-bottom-gap {
     margin-bottom: 15px;
+}
+
+.hjw-right-gap {
+    margin-right: 15px;
+}
+
+.hjw-top-bottom-gap {
+    margin: 30px 0px;
+}
+
+.hjw-top-bottom-pad {
+    padding: 10px 0px;
+}
+
+.hjw-top-bottom-pad2 {
+    padding: 15px 0px;
 }
 
 .hjw-side-pad {
@@ -38,7 +59,20 @@ li {
     font-weight: bold;
 }
 
-.hjw-small {
+.hjw-highlight2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hjw-small-char {
     font-size: 12px;
     color: #777777;
+}
+
+.hjw-bold-char {
+    font-weight: bold;
+}
+
+.hjw-right-big-gap {
+    padding-right: 490px;
 }
