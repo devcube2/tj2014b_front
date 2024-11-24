@@ -4,15 +4,25 @@
 <head>
     <!-- <link rel='stylesheet' type='text/css' href='common.css'> -->
     <link rel='stylesheet' type='text/css' href='cs_center.css'>
+
+    <!-- <script src="js/jquery-3.7.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#hjw-header-wrap").load("hjw-header.html");
+            $("#hjw-footer-wrap").load("hjw-footer.html");
+        });
+    </script>
 </head>
 
 <body>
     <!-- 헤더 -->
-    
+    <div id="hjw-header-wrap"></div>
+
     <!-- 본문 -->
-    <div id="hjw-content-wrap">
+    <div id="hjw-content-wrap" class="hjw-top-big-gap">
         <div id="hjw-content">
-            <!-- 고객센터 글자 -->
             <div id="hjw-content-top-subject" class="hjw-bottom-gap">
                 <h2><a href="#">고객센터</a></h3>
             </div>
@@ -66,8 +76,13 @@
                             <a href="#">
                                 <div id="hjw-ico-search"></div>
                             </a>
-                            <p class="hjw-small-char hjw-bold-char hjw-right-big-pad hjw-top-pad10 hjw-bottom-pad20">
-                                <span>주문 | 배송 | 특급배송 | 포인트</span>
+                            <p class="hjw-small-char hjw-bold-char hjw-right-pad480 hjw-top-pad10 hjw-bottom-pad20">
+                                <span>
+                                    <a href="#"><span class="hjw-small-char">주문&nbsp; |&nbsp;</span></a>
+                                    <a href="#"><span class="hjw-small-char">배송&nbsp; |&nbsp;</span></a>
+                                    <a href="#"><span class="hjw-small-char">특급배송&nbsp; |&nbsp;</span></a>
+                                    <a href="#"><span class="hjw-small-char">포인트</span></a>
+                                </span>
                             </p>
                         </div>
                     </div>
@@ -143,15 +158,6 @@
                                         <span>[오렌지멤버스] 오렌지멤버스는 무엇인가요?</span>
                                     </a>
                                 </li>
-                                <!-- <li id="hjw-faq-notice">
-                                <p>오렌지멤버스는 구매할 때마다 횟수 제한 없이!</p>
-                                <p>추가 할인/적립 혜택을 제공하는 랭킹닭컴의 유료 멤버십 서비스입니다.</p>
-                                <br />
-                                <p>가입 후 1년동안, 매월 최대 25,000원의 쿠폰팩을 받으실 수 있으며,</p>
-                                <p>연회비 3만원을 포인트로 돌려드려요.</p>
-                                <br />
-                                <p>랭킹닭컴과 함께 1년 식단 성공하세요!</p>
-                            </li> -->
                             </ul>
                         </div>
                     </div>
@@ -199,6 +205,7 @@
     </div>
 
     <!-- 푸터 -->
+    <div id="hjw-footer-wrap"></div>
 </body>
 
 </html>

@@ -1,19 +1,18 @@
 @import "common.css";
-
-/* 헤더 */
+@import "hjw-header.css";
+@import "hjw-footer.css";
 
 /*
     ----- 본문 크기 및 배치 조정(큰틀 조정) -----
 */
-
 #hjw-content-wrap {
     /* 본문 전체 중앙 배치 */
     display: flex;
     justify-content: center;
 }
 
-#hjw-content-top-subject {
-    /* margin: 0px 50px; */
+#hjw-content {
+    width: 1100px;
 }
 
 #hjw-content-flex {
@@ -173,14 +172,3 @@
     /* 상단 메뉴 아이콘5 */
     background-position: -268px 0px;
 }
-
-.ico-arr-toggle {
-    top: 50%;
-    right: 0;
-    width: 60%;
-    height: 1px;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-/* 푸터 */
