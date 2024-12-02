@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    주제 : 인사 관리 시스템
+        1. 인사 정보 등록                   
+            - 이름 , 생년월일 등등 그외 임의 추가
+            - 각 정보들을 HTML 로 입력받아서 JS 에서 등록 처리 하기.        
+        2. 전체 인사 정보 전체 출력 내역    
+            - 현재 등록된 모든 인사 정보를 출력 , 점수는 별도로 출력
+        3. 각 인사별 점수 등록
+            - 각 인사별 상반기/하반기 등등 그외 임의 추가
+            - 각 상반기,하반기 점수를 HTML 로 입력받아서 JS에서 등록 처리 하기.        
+        4. 인사별 전체 점수 정보 출력
+            - 각 인사별 점수를 출력하시오.
+
+    1. 위 요구사항에 따른 화면 설계/구성
+    2. 위 요구사항에 따른 메모리(변수/배열/CSV) 설계/구성
+-->
+</head>
+
+<body>
+    <fieldset>
+        <legend>인사정보</legend>
+        <span>사원번호: </span><input id="staff-id" type="text" placeholder="1"><br>
+        <span>이름: </span><input id="staff-name" type="text" placeholder="유재석"><br>
+        <span>생년월일: </span><input id="staff-birthday" type="text" placeholder="990619"><br>
+        <button type="button" onclick="인사정보등록()">등록</button>
+    </fieldset>
+    
+    <fieldset>
+        <legend>인사정보출력</legend>
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <td>이름</td>
+                <td>생년월일</td>
+            </tr>
+            <tr>
+                <td>유재석</td>
+                <td>610615</td>
+            </tr>
+            <tr>
+                <td>강호동</td>
+                <td>720723</td>
+            </tr>
+        </table>
+        <button type="button">출력</button>
+    </fieldset>
+
+    <script src="2_중간과제10.js"></script>
+</body>
+
+</html>
