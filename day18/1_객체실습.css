@@ -1,0 +1,40 @@
+/* 달력 상단 구역 */
+#calTop {
+    display: flex;
+}
+
+/* 달력 날짜 표시 구역 */
+#calBottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#calBottom>table {
+    width: 600px;
+    table-layout: fixed;
+    /* 테이블 크기 고정(창 크기에 따라가지 않음) */
+    border-collapse: collapse;
+    border: 2px solid #eeeeee;
+}
+
+#calBottom>table>tbody td {
+    font-size: 13px;
+    height: 75px;
+    vertical-align: top;
+    /* 셀값 수직 위쪽 정렬 */
+}
+
+/* td 마크업 안에 값이 빈곳의 테두리 제거를 위해서 table 자체 border 를 제거함 */
+#calBottom>table {
+    border-right: none;
+    border-bottom: none;
+}
+
+/* td 마크업 안에 값이 빈곳은 테두리 제거 */
+#calBottom>table>tbody .empty {
+    border: none;
+}
+
+#calBottom>.week {
+    text-align: center;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 재고 관리</title>
+    <link rel="stylesheet" type='text/css' media='screen' href='2_팀과제.css'>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="newBook">
+            <h3>도서 등록</h3>
+            책명 <input type="text" class="name" />
+            저자 <input type="text" class="author" />
+            출판사 <input type="text" class="pub" />
+            <button type="button" onclick="도서등록()">등록</button>
+        </div>
+        <hr>
+        <div id="bookList">
+            <h3>도서 목록</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>도서번호 </th>
+                        <th> 도서명 </th>
+                        <th>저자</th>
+                        <th>출판사</th>
+                        <th>비고</th>
+                    </tr>
+                </thead>
+                <tbody class="books">
+                    <tr>
+                        <td>1</td>
+                        <td>모순</td>
+                        <td>양귀자</td>
+                        <td>쓰다</td>
+                        <td><button type="button">수정</button> <button type="button">삭제</button> <button
+                                type="button">재고등록</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>퓨처 셀프</td>
+                        <td>벤저민 하디</td>
+                        <td>상상스퀘어</td>
+                        <td><button type="button">수정</button> <button type="button">삭제</button> <button
+                                type="button">재고등록</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="correction">
+
+        </div>
+        <hr>
+
+        <div id="stockRegi">
+            <h3>재고 등록</h3>
+            단가 <input type="text" />
+            수량 <input type="text" />
+            날짜 <input type="date" />
+            <button type="button">등록</button>
+        </div>
+        <hr>
+
+        <div id="stockList">
+            <h3>재고목록</h3>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>재고번호 </th>
+                        <th> 도서번호 </th>
+                        <th>변화량</th>
+                        <th>날짜</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>+12</td>
+                        <td>2024-12-01</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>+8</td>
+                        <td>2024-12-02</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <hr>
+
+
+    </div>
+
+    <script src="2_팀과제.js"></script>
+</body>
+
+</html>

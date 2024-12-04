@@ -1,0 +1,49 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+
+*{
+    font-family: Noto Sans KR;
+}
+
+#wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+hr{margin-top: 50px;}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+button{
+    background-color: #323232;
+    color: white;
+    border: none;
+}
+
+#bookList > table > thead > tr > th{
+    background-color: beige;
+    width: 160px;
+    height: 30px;
+}
+
+#bookList > table > tbody > tr > td {
+    text-align: center;
+}
+
+.date{
+    width: 193px;
+    height: 21px;
+}
+
+#stockList > table > thead > tr > th{
+    background-color: beige;
+    width : 160px;
+    height: 30px;
+}
+
+#stockList > table > tbody > tr > td {
+    text-align: center;
+}
