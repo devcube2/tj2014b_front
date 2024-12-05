@@ -1,0 +1,36 @@
+#wrap {
+    width: 300px;
+    margin: 0 auto;    
+}
+
+#todoRegister {
+    display: flex;
+    margin-bottom: 20px;        
+}
+
+#todoInput {
+    width: 200px;
+    padding: 10px;
+}
+
+#todoInputButton {
+    padding: 10px 20px;
+}
+
+.todoBox {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px 0px;    
+}
+
+.success {    
+    background-color: gray;
+    color: white;    
+    
+}
+
+.line-through {
+    text-decoration: line-through;
+}

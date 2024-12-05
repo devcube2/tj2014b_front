@@ -26,16 +26,14 @@
             - 4. 삭제함수 : 실행조건 : [삭제]버튼 클릭시 onClick
 
         5. (JS) 함수별 로직 구현/만들기 , / 구현된 함수는 실행조건에 맞추어 함수 실행
-
 */
 
-let 식별번호 = 3
+let 식별번호 = 1
 
 //[1]
-let 할일목록 = [
-    { 할일코드 : 1 , 할일내용 : "수업듣기" , 할일상태 : false },
-    { 할일코드 : 2 , 할일내용 : "밥먹기" , 할일상태 : true }
+let 할일목록 = [    
 ]
+
 //[2] 등록함수
 function 등록함수(){
     contentInput = document.querySelector('.contentInput')
@@ -74,7 +72,7 @@ function 수정함수(할일코드){
     for( let index = 0; index < 할일목록.length; index++ ) {
         let info = 할일목록[index]
         if (info.할일코드 == 할일코드) {
-            할일목록[index].할일상태 = true
+            할일목록[index].할일상태 = !(할일목록[index].할일상태)
             break
         }
     }
