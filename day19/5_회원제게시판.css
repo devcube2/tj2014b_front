@@ -1,32 +1,93 @@
+/* 공통 css */
 * {
     padding: 0px;
     margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 li {
     list-style-type: none;
 }
 
+textarea {
+    width: 100%;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml500 {
+    margin-left: 500px;
+}
+
+.ml538 {
+    margin-left: 538px;
+}
+
+.ml654 {
+    margin-left: 654px;
+}
+
+.pd5 {
+    padding: 5px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.wd400 {
+    width: 400px;
+}
+
+.wd500 {
+    width: 500px;
+}
+
+/* 회원가입 로그인 관련 css */
 fieldset {
     width: 300px;
     margin: 10px;
 }
 
-fieldset > ul {
+fieldset>ul {
     padding: 5px;
 }
 
-fieldset > ul > li {
+fieldset>ul>li {
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
 
-fieldset > ul > li > button {
+fieldset>ul>li>button {
     padding: 5px;
     margin-left: 5px;
 }
 
 .justify-right {
     justify-content: right;
+}
+
+#welcome-message>div>p {
+    font-size: 13px;
+}
+
+/* 게시판 관련 css */
+.board-head th {
+    padding: 10px;
+}
+
+.board-body td {
+    padding: 5px;
+    text-align: center;
 }
