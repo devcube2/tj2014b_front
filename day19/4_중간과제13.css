@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#todoTop {
+    display: flex;
+}
+
+.contentInput {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 0px 3px blue;
+}
+
+.addBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px blue;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    margin: 20px 0px;
+    padding: 15px 10px;
+}
+
+/* 할일이 완료일때 */
+.success {
+    background-color: gray;
+    color: white;
+}
+
+/* 할일이 완료 일때 내용물에 취소선 */
+.success .content {
+    text-decoration: line-through;
+}

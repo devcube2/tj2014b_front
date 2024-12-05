@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset {
+    width: 300px;
+    margin: 10px;
+}
+
+fieldset > ul {
+    padding: 5px;
+}
+
+fieldset > ul > li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+fieldset > ul > li > button {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.justify-right {
+    justify-content: right;
+}

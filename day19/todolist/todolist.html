@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>    
+    <link rel='stylesheet' type='text/css' media='screen' href='todolist.css'>    
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="todo-input">
+            <h1>내가 할일 목록</h1>
+            <div id="todo-input-group">
+                <input type="text" id="todo-input-box">
+                <button id="todo-input-button" type="button" onclick="할일등록()">등록</button>
+            </div>
+        </div>
+
+        <div id="todo-list">
+            <!-- 이곳의 HTML 태그는 동적으로 생성된다. -->
+        </div>
+    </div>
+
+    <script src='todolist.js'></script>
+</body>
+
+</html>

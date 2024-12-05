@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrap {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#todo-input-group {
+    display: flex;
+    margin: 10px 0px;    
+}
+
+#todo-input-box {
+    width: 250px;
+    padding: 5px;
+}
+
+#todo-list {
+    margin: 15px 0px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.success {
+    background-color: gray;
+    color: white;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
