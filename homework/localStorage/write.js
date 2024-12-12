@@ -35,5 +35,5 @@ function 등록함수() {
     // 배열을 다시 JSON 포맷으로 변경하여, localStorage 에 저장
     localStorage.setItem('board', JSON.stringify(board))
     alert('등록되었습니다.')
-    history.back() // 바로 전 페이지로 이동... (목록페이지로 가게된다.)
+    location.replace("board.html") // 목록 페이지로 이동
 }

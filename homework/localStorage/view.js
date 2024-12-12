@@ -12,18 +12,18 @@ function 삭제함수(index) { // 매개변수 , 삭제할 인덱스 번호
     localStorage.removeItem('board') // localStorage 값 교체하기위해 삭제..
     localStorage.setItem('board', JSON.stringify(board))
     alert('삭제하였습니다.')
-    history.back() // 바로 전 페이지로 이동... (목록페이지로 가게된다.)
+    location.replace("board.html") // 목록 페이지로 이동
 }
 
 const board = JSON.parse(localStorage.getItem('board'))
 
 const index = getParameter('index') // 목록 페이지에서 GET 방식으로 넘어온 인자값(index)을 읽어온다.
 const article = board[index]
-
+console.log(article)
 let info = article.split(',')
 
 document.querySelector('.titleBox').innerHTML = info[0] // 제목 데이터를 .titleBox 마크업 사이에 대입
 document.querySelector('.contentBox').innerHTML = info[1] // 내용 데이터를 .contentBox 마크업 사이에 대입
-document.querySelector('.dateBox').innerHTML = info[2] // 작성일 데이터를 .dateBox 마크업 사이에 대입
-document.querySelector('.viewBox').innerHTML = info[3] // 조회수 데이터를 .viewBox 마크업 사이에 대입
+document.querySelector('.dateBox').innerHTML = info[3] // 작성일 데이터를 .dateBox 마크업 사이에 대입
+document.querySelector('.viewBox').innerHTML = info[4] // 조회수 데이터를 .viewBox 마크업 사이에 대입
 document.querySelector('.btnBox').innerHTML = `<button onclick="삭제함수(${index})" type="button">삭제</button>`
